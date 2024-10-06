@@ -2,9 +2,11 @@
 
 ## Description
 
+
+
 ## Use cases
 
-### Genome-wide association studies (GWAS
+### Genome-wide association studies (GWAS)
 
 Following multimarker approaches in GWAS, we proposed the workflow: 
 
@@ -15,8 +17,6 @@ Following multimarker approaches in GWAS, we proposed the workflow:
 3. Restore haplotypes in each block
 
 4. Test each block, identify those ones associated significntly to phenotype.
-
-The workflow was implemented as follow:
 
 ### Other potential usages
 
