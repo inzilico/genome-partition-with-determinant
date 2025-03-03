@@ -2,7 +2,7 @@
 
 ## Description
 
-The repo contains the scripts applied in the [article](DOI: 10.1093/nargab/lqaf024) 
+The repo contains the scripts applied in the article (DOI: 10.1093/nargab/lqaf024) 
 
 ## Use cases
 
