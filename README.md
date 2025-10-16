@@ -6,11 +6,16 @@ The repo contains the scripts applied in the article (DOI: 10.1093/nargab/lqaf02
 
 ## Use cases
 
-### Genome-wide association studies (GWAS)
+### Genome-wide association studies (GWAS) based on testing of haplotypes
 
-Following multimarker approaches in GWAS, we proposed the workflow: 
+Following multimarker approaches in GWAS, we proposed the following workflow. Assume the original files are given as Plink 1.9 binary format. 
 
 1. Get an LD-matrix with $r^2$ values. 
+
+```bash
+plink --bfile path/to/prefix --r2 square --out path/to/prefix 
+
+```
 
 2. Transform LD-matrix into block-diagonal one. 
 
